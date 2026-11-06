@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-06T15:40:09Z",
+  "generated_at": "2026-11-06T16:22:01Z",
   "source_repo": "y1-community/g1-stock-rom",
   "mirror_repo": "y1-community/g1-stock-rom-mirror",
   "title_prefix": "Portable Flashing Package: ",
@@ -42,7 +42,284 @@
       "layout": "beside_dmg"
     }
   ],
-  "releases": [],
+  "releases": [
+    {
+      "tag": "MX3-G1-EN-WM-V5.01-20260805",
+      "title": "Portable Flashing Package: MX3-G1-EN-WM-V5.01-20260805",
+      "source_title": "MX3-G1-EN-WM-V5.01-20260805",
+      "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-G1-EN-WM-V5.01-20260805",
+      "published_at": "2026-11-05T05:05:03Z",
+      "prerelease": false,
+      "source_notes": "Original Innioasis G1 software **MX3-G1-EN-WM-V5.01-20260805**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-G1-EN-WM-V5.01-20260805`\n- Build date: 2026-08-05\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1569.6 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
+      "assets": [
+        {
+          "name": "rom_g1-windows.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1921120967,
+          "sha256": "0bfd5dc76af1a7756109fba3a0945c357c6917d9429460567bb9396fe67f5e99",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-linux.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux",
+          "model": "G1",
+          "type": "Stock",
+          "size": 2036964039,
+          "sha256": "7fcc66310fea77f5da2f29fd7aa197c31345caf20ab24f661d49aad99c29eeae",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/rom_g1-linux.zip"
+        },
+        {
+          "name": "rom_g1-macos.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "macos",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1893848461,
+          "sha256": "8d3db51d60d3595104a4d6a4760ebd569d01e6144a1f910d425cc9ec868d3888",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/rom_g1-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_g1.zip",
+        "SHA256SUMS.MX3-G1-EN-WM-V5.01-20260805"
+      ],
+      "stats_url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/stats.txt"
+    },
+    {
+      "tag": "MX3-G1-EN-WM-V5.00-20260722",
+      "title": "Portable Flashing Package: MX3-G1-EN-WM-V5.00-20260722",
+      "source_title": "MX3-G1-EN-WM-V5.00-20260722",
+      "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-G1-EN-WM-V5.00-20260722",
+      "published_at": "2026-11-05T04:57:43Z",
+      "prerelease": false,
+      "source_notes": "Original Innioasis G1 software **MX3-G1-EN-WM-V5.00-20260722**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-G1-EN-WM-V5.00-20260722`\n- Build date: 2026-07-22\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1569.5 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
+      "assets": [
+        {
+          "name": "rom_g1-windows.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1921134479,
+          "sha256": "02751cdcde75cb08f1724ecd9108c15ae4b2b43775d498a9d234115f6adb6ab1",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-linux.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux",
+          "model": "G1",
+          "type": "Stock",
+          "size": 2036977551,
+          "sha256": "011c3d9d224ec7564ce69735f25934f42e86ae407a70db5f609543d1b0afd903",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux.zip"
+        },
+        {
+          "name": "rom_g1-macos.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "macos",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1893861972,
+          "sha256": "f9506eb8933cd8a5403cf09c8a6154b9fa4dfa6e0297f60bc26fff42a7dd35b6",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_g1.zip",
+        "SHA256SUMS.MX3-G1-EN-WM-V5.00-20260722"
+      ],
+      "stats_url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/stats.txt"
+    },
+    {
+      "tag": "MX3-9_G1_MULTI-V3.03-20260826",
+      "title": "Portable Flashing Package: MX3-9_G1_MULTI-V3.03-20260826",
+      "source_title": "MX3-9_G1_MULTI-V3.03-20260826",
+      "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-9_G1_MULTI-V3.03-20260826",
+      "published_at": "2026-11-05T04:50:26Z",
+      "prerelease": false,
+      "source_notes": "Original Innioasis G1 software **MX3-9_G1_MULTI-V3.03-20260826**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-9_G1_MULTI-V3.03-20260826`\n- Build date: 2026-08-26\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1500.3 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
+      "assets": [
+        {
+          "name": "rom_g1-windows.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1848460936,
+          "sha256": "3c6333282e629e7f5cd5b960875e0393e01ef3a3374829d5147bdcaddf0cad23",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-linux.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1964304008,
+          "sha256": "c6ace6d9f7476ac9ed4b8f8a0aa69272a7893b594d3b91899893eaf84ba3a15a",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux.zip"
+        },
+        {
+          "name": "rom_g1-macos.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "macos",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1821188427,
+          "sha256": "90512dc1615c591a0df9e2592695a2039a8616fbe151b94697a62ff14bc7dae3",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_g1.zip",
+        "SHA256SUMS.MX3-9_G1_MULTI-V3.03-20260826"
+      ],
+      "stats_url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/stats.txt"
+    },
+    {
+      "tag": "MX3-9_G1_MULTI-V3.01-20260720",
+      "title": "Portable Flashing Package: MX3-9_G1_MULTI-V3.01-20260720",
+      "source_title": "MX3-9_G1_MULTI-V3.01-20260720",
+      "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-9_G1_MULTI-V3.01-20260720",
+      "published_at": "2026-11-05T04:43:42Z",
+      "prerelease": false,
+      "source_notes": "Original Innioasis G1 software **MX3-9_G1_MULTI-V3.01-20260720**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-9_G1_MULTI-V3.01-20260720`\n- Build date: 2026-07-20\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1500.4 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
+      "assets": [
+        {
+          "name": "rom_g1-windows.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1848419486,
+          "sha256": "1f57742ae500b4669b9e8f78e3fd84fe1f279259461738b23fd2b746a00a5831",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-linux.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1964262558,
+          "sha256": "2b7571d62cc210a1f9677d08b5bd22bc99838f66604eb0ac624677f872fe7e1f",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux.zip"
+        },
+        {
+          "name": "rom_g1-macos.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "macos",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1821146978,
+          "sha256": "da0bc9c2f3ab24096cf1edee1b8bbe6aa34d3e63ed1fef02066f02135d9ffecc",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_g1.zip",
+        "SHA256SUMS.MX3-9_G1_MULTI-V3.01-20260720"
+      ],
+      "stats_url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/stats.txt"
+    },
+    {
+      "tag": "MX3-9_EN-V1.04-20260805",
+      "title": "Portable Flashing Package: MX3-9_EN-V1.04-20260805",
+      "source_title": "MX3-9_EN-V1.04-20260805",
+      "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-9_EN-V1.04-20260805",
+      "published_at": "2026-11-05T04:36:55Z",
+      "prerelease": false,
+      "source_notes": "Original Innioasis G1 software **MX3-9_EN-V1.04-20260805**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-9_EN-V1.04-20260805`\n- Build date: 2026-08-05\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1569.1 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
+      "assets": [
+        {
+          "name": "rom_g1-windows.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1920722094,
+          "sha256": "d023e43fdd13cf8cfd0290908e6c5a25943cfbf607119bd56edf2410e50f88ce",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-linux.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux",
+          "model": "G1",
+          "type": "Stock",
+          "size": 2036565166,
+          "sha256": "3eb94d6f06a5f41cb8585e83fd54c2a31ac68626c67b85f2a8e0a6338ad00262",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux.zip"
+        },
+        {
+          "name": "rom_g1-macos.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "macos",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1893449591,
+          "sha256": "d335fcc88121bdc9d15f3c7ea114c215f09d128ac1068a6626851ceb1c6198af",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_g1.zip",
+        "SHA256SUMS.MX3-9_EN-V1.04-20260805"
+      ],
+      "stats_url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/stats.txt"
+    },
+    {
+      "tag": "MX3-9_EN-V1.03-20260707",
+      "title": "Portable Flashing Package: MX3-9_EN-V1.03-20260707",
+      "source_title": "MX3-9_EN-V1.03-20260707",
+      "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-9_EN-V1.03-20260707",
+      "published_at": "2026-11-05T04:28:59Z",
+      "prerelease": false,
+      "source_notes": "Original Innioasis G1 software **MX3-9_EN-V1.03-20260707**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-9_EN-V1.03-20260707`\n- Build date: 2026-07-07\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1569.2 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
+      "assets": [
+        {
+          "name": "rom_g1-windows.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1920727937,
+          "sha256": "409388f1afa4fbc580d508d7297cd3c2b34b7fc9f87ab8303daf8c26119474a3",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-linux.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux",
+          "model": "G1",
+          "type": "Stock",
+          "size": 2036571009,
+          "sha256": "31588b41e92262b86b3e97d5cbe82e3ac10a2e58932a402839d8d27060dfea77",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux.zip"
+        },
+        {
+          "name": "rom_g1-macos.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "macos",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1893455434,
+          "sha256": "f54c19f130ab64248905faab978146270611bb4c7d6573a52edb25aff04efc34",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-macos.zip"
+        }
+      ],
+      "original_assets": [
+        "rom_g1.zip",
+        "SHA256SUMS.MX3-9_EN-V1.03-20260707"
+      ],
+      "stats_url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/stats.txt"
+    }
+  ],
   "source_readme": {
     "path": "README.md",
     "source_path": "README.md",
