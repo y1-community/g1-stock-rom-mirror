@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T23:06:55Z",
+  "generated_at": "2026-11-12T03:50:48Z",
   "source_repo": "y1-community/g1-stock-rom",
   "source_fallback_repo": "ryan-specter/g1-stock-rom",
   "mirror_repo": "y1-community/g1-stock-rom-mirror",
@@ -155,6 +155,7 @@
       "title": "Portable Flashing Package: MX3-G1-EN-WM-V5.00-20260722",
       "source_title": "MX3-G1-EN-WM-V5.00-20260722",
       "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-G1-EN-WM-V5.00-20260722",
+      "source_fallback_url": "https://github.com/ryan-specter/g1-stock-rom/releases/tag/MX3-G1-EN-WM-V5.00-20260722",
       "published_at": "2026-11-05T04:57:43Z",
       "prerelease": false,
       "source_notes": "Original Innioasis G1 software **MX3-G1-EN-WM-V5.00-20260722**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-G1-EN-WM-V5.00-20260722`\n- Build date: 2026-07-22\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1569.5 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
@@ -166,8 +167,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1881753213,
-          "sha256": "dae2e7af54aea1eb75f1697e77698b2cfb161f681c74f574bacc167f570d58ab",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-windows.zip"
+          "sha256": "2d883b0c07f95ee55d281f8b18d50963eb11c3f6f414f7843f13de9e126b49ab",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-windows-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1720602760,
+          "sha256": "80b74be1807ef9b1c78feb9a3655dca836859f70863e6392a29500640448fc32",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-windows-legacy.zip"
         },
         {
           "name": "rom_g1-linux.zip",
@@ -176,8 +189,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 2005624729,
-          "sha256": "a7851d929e51886b051a2fb10b44c14d6e00cf9691938e6481e875e7651d6ab2",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux.zip"
+          "sha256": "0ee86149ef1a78daa4b8da710b007256e7a9360eeb2acb9d245edefdaccdfa4b",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux.zip"
         },
         {
           "name": "rom_g1-linux-arm64.zip",
@@ -186,8 +200,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1830529671,
-          "sha256": "1c23c51c3e1d35e4bd9caf8af18003d3957a3c93a6522ad9ee6276f740b403d4",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux-arm64.zip"
+          "sha256": "206fb0bad8fc0cc5fca6559d94b2c3fcdd7cc3b30c2cfb051c274142598797f1",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux-arm64.zip"
+        },
+        {
+          "name": "rom_g1-linux-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1719017045,
+          "sha256": "9c52394398a258e2a65080844c245834bb4334dab7c195b924dee794d938b0a7",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux-legacy.zip"
         },
         {
           "name": "rom_g1-macos.zip",
@@ -196,8 +222,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 1765475518,
-          "sha256": "a960c56984f65e4bb89dc27046d1d551435ac0f6a77028a11a1673d9c7964902",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-macos.zip"
+          "sha256": "46efe3a8c329226c394be1a568bdb6347dc6b7022c6771235cc73c86aec211ad",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-macos.zip"
         }
       ],
       "original_assets": [
@@ -211,6 +238,7 @@
       "title": "Portable Flashing Package: MX3-9_G1_MULTI-V3.03-20260826",
       "source_title": "MX3-9_G1_MULTI-V3.03-20260826",
       "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-9_G1_MULTI-V3.03-20260826",
+      "source_fallback_url": "https://github.com/ryan-specter/g1-stock-rom/releases/tag/MX3-9_G1_MULTI-V3.03-20260826",
       "published_at": "2026-11-05T04:50:26Z",
       "prerelease": false,
       "source_notes": "Original Innioasis G1 software **MX3-9_G1_MULTI-V3.03-20260826**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-9_G1_MULTI-V3.03-20260826`\n- Build date: 2026-08-26\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1500.3 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
@@ -222,8 +250,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1809219473,
-          "sha256": "2d6608ab6352ffa21c4849dc9e147a36e78f20e85064e9da766043de0d9dc2de",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-windows.zip"
+          "sha256": "378e522ade20133d7e207ef3de5ee2445b02563e5a85b2298057af2558e5d360",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-windows-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1648069020,
+          "sha256": "d9b99e43ee76e2aa2b72f2ab8b49a042fa7b9feb5782f9e905614cc979f37865",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-windows-legacy.zip"
         },
         {
           "name": "rom_g1-linux.zip",
@@ -232,8 +272,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 1933090989,
-          "sha256": "d8424e2ff6a3b82b773831937bc2b731b8f42e36b7558e5d4887635e2934928e",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux.zip"
+          "sha256": "8412f0750806c35f9491f2e7aeac28e5700482821c0043a75e5b85ba946ed21f",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux.zip"
         },
         {
           "name": "rom_g1-linux-arm64.zip",
@@ -242,8 +283,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1757995931,
-          "sha256": "909904786c385f629fc686fa658f62cf93d19d15a22eec0b38926e9cd99ccf14",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux-arm64.zip"
+          "sha256": "c028b254f29731eba362255c4426e0cf0ebc6a2f1504b003acb8721650a849e7",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux-arm64.zip"
+        },
+        {
+          "name": "rom_g1-linux-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1646483305,
+          "sha256": "57b9a7874f1a9a32284ecddedd5a2b3a964b58ed9eaf38f53b069fc8e6a4ec49",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux-legacy.zip"
         },
         {
           "name": "rom_g1-macos.zip",
@@ -252,8 +305,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 1692941776,
-          "sha256": "99465710a545436ebb139b495cf5cdd28ee0e836eb7c73186280430b81a6bc24",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-macos.zip"
+          "sha256": "352ade0384ea47a136893d8fae25583d530696ced612d5eb16d3ef7603b4a9a8",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-macos.zip"
         }
       ],
       "original_assets": [
@@ -267,6 +321,7 @@
       "title": "Portable Flashing Package: MX3-9_G1_MULTI-V3.01-20260720",
       "source_title": "MX3-9_G1_MULTI-V3.01-20260720",
       "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-9_G1_MULTI-V3.01-20260720",
+      "source_fallback_url": "https://github.com/ryan-specter/g1-stock-rom/releases/tag/MX3-9_G1_MULTI-V3.01-20260720",
       "published_at": "2026-11-05T04:43:42Z",
       "prerelease": false,
       "source_notes": "Original Innioasis G1 software **MX3-9_G1_MULTI-V3.01-20260720**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-9_G1_MULTI-V3.01-20260720`\n- Build date: 2026-07-20\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1500.4 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
@@ -278,8 +333,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1809226404,
-          "sha256": "b84043eaf4c0be23e03a017542a4ef6238dc1093e3fdb5f0d6376a564912355b",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-windows.zip"
+          "sha256": "082d0d25d1fc0f6908f6da26aed836f24247e8bcc55929f8c7543e0a0dbd45a5",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-windows-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1648075951,
+          "sha256": "a8633c546ab1156da65c16cf65f05f12fa6ac00b56534ed9274807cfaf9c5389",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-windows-legacy.zip"
         },
         {
           "name": "rom_g1-linux.zip",
@@ -288,8 +355,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 1933097920,
-          "sha256": "40bc18add9c0b4b3f81299a78bce38aa16f33bbbf4d2a52f58a14b1336d444f4",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux.zip"
+          "sha256": "0384737ec5ccd1123b7b53a0c84ad82257ecf860d6270b23cce1e756c7c8d4c1",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux.zip"
         },
         {
           "name": "rom_g1-linux-arm64.zip",
@@ -298,8 +366,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1758002862,
-          "sha256": "9b3951855aec43693e98b186a1550cae8ce23a9ca3837bb83b3da36d32735d52",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux-arm64.zip"
+          "sha256": "fef455bc55052c98f5fd7985d3702b1f55300e4941d4f6f7885d09e49b5b2f6b",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux-arm64.zip"
+        },
+        {
+          "name": "rom_g1-linux-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1646490236,
+          "sha256": "5e1ef84773f4572fcb0d9b70253bcac77ae772032f911a3c924eee3ce15ec006",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux-legacy.zip"
         },
         {
           "name": "rom_g1-macos.zip",
@@ -308,8 +388,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 1692948708,
-          "sha256": "72637f6415341b198beac4d2f1e2eaa6cd22a07ad022b2deb9fadd2909c24afd",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-macos.zip"
+          "sha256": "88a5f6ed63e00fb4a6d4b123bd550f7f296f036ce3c89094af885a55b9dfd657",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-macos.zip"
         }
       ],
       "original_assets": [
@@ -323,6 +404,7 @@
       "title": "Portable Flashing Package: MX3-9_EN-V1.04-20260805",
       "source_title": "MX3-9_EN-V1.04-20260805",
       "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-9_EN-V1.04-20260805",
+      "source_fallback_url": "https://github.com/ryan-specter/g1-stock-rom/releases/tag/MX3-9_EN-V1.04-20260805",
       "published_at": "2026-11-05T04:36:55Z",
       "prerelease": false,
       "source_notes": "Original Innioasis G1 software **MX3-9_EN-V1.04-20260805**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-9_EN-V1.04-20260805`\n- Build date: 2026-08-05\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1569.1 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
@@ -334,8 +416,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1881340815,
-          "sha256": "11f9e774350baa39803dbf1ef5c749a1a2eabf3b154c6f6d5c6ba6dc7b6e1218",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-windows.zip"
+          "sha256": "bb2786ec2c830b5636d72b023834bf8b8dd3426bfbef94cd6ca3dec8cd5c4a0a",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-windows-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1720190362,
+          "sha256": "3d4c03500af3b3f9b589cb8e099683de3ee683c6bcc15821cd5b4da810bd7c50",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-windows-legacy.zip"
         },
         {
           "name": "rom_g1-linux.zip",
@@ -344,8 +438,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 2005212331,
-          "sha256": "b5bac7ac74df7c87dc98652c2eaf207fe66c9e362db6a384be0625a0aca8dea8",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux.zip"
+          "sha256": "8858b4ae0e4adc6e30404fdb555d223ad62d4a4ff5905b8ecffce476587efcb3",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux.zip"
         },
         {
           "name": "rom_g1-linux-arm64.zip",
@@ -354,8 +449,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1830117273,
-          "sha256": "d7dd65148b13fd925da247be704092ffec6e7f185ff474b993192df8b0a1a6bc",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux-arm64.zip"
+          "sha256": "12938cee3f50e403a875554d3e1d784d383402447f341b4667b428e74cb30a08",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux-arm64.zip"
+        },
+        {
+          "name": "rom_g1-linux-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1718604645,
+          "sha256": "81d78059ba980aac80341a29aa8aa506ec77dfb16d6644ca712ba8b1f3976130",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux-legacy.zip"
         },
         {
           "name": "rom_g1-macos.zip",
@@ -364,8 +471,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 1765063124,
-          "sha256": "18a93cb2123e9e97678b3d56db919bee1ffd51fee026a05a2e15fb5361512fa3",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-macos.zip"
+          "sha256": "c3e596802b1d4f07765348508a81fae828a8ba1f1356bb389c6943ae4eda30aa",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-macos.zip"
         }
       ],
       "original_assets": [
@@ -379,6 +487,7 @@
       "title": "Portable Flashing Package: MX3-9_EN-V1.03-20260707",
       "source_title": "MX3-9_EN-V1.03-20260707",
       "source_url": "https://github.com/y1-community/g1-stock-rom/releases/tag/MX3-9_EN-V1.03-20260707",
+      "source_fallback_url": "https://github.com/ryan-specter/g1-stock-rom/releases/tag/MX3-9_EN-V1.03-20260707",
       "published_at": "2026-11-05T04:28:59Z",
       "prerelease": false,
       "source_notes": "Original Innioasis G1 software **MX3-9_EN-V1.03-20260707**.\n\n- Model: **G1** (Innioasis)\n- Package: `rom_g1.zip`\n- Build tag: `MX3-9_EN-V1.03-20260707`\n- Build date: 2026-07-07\n\n## Install\n\n1. Download `rom_g1.zip` (every numbered volume if the release has more than one, then `cat rom_g1.zip.* > rom_g1.zip`).\n2. Unzip it. Keep the scatter file next to the images.\n3. Open SP Flash Tool, choose **Download Only**, load the scatter file from the archive and flash.\n4. Or use Innioasis Updater CE: <https://innioasis.app/guide.html>\n\nThis wipes the player. Back up music and recordings first.\n\n## Files\n\n| File | Size |\n| --- | --- |\n| `rom_g1.zip` | 1569.2 MB |\n| `SHA256SUMS` | 0.0 MB |\n\nFull archive: <https://innioasis.app/firmware.html?model=G1>",
@@ -390,8 +499,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1881374003,
-          "sha256": "a9525f06edc36a92d70b52bfd9bc3cb22ddf6d1d428c0bfd7a80fd968184b908",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-windows.zip"
+          "sha256": "b5f101ae97d005895f4a69d6c3aeedc0b4ebd5de629161d85d529ba072b54f0f",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-windows.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-windows.zip"
+        },
+        {
+          "name": "rom_g1-windows-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "windows-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1720223550,
+          "sha256": "09dd6cb0fe7696ab5bffd7e6b4e914d8f4803f268e278abe1444a506582f0dd8",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-windows-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-windows-legacy.zip"
         },
         {
           "name": "rom_g1-linux.zip",
@@ -400,8 +521,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 2005245519,
-          "sha256": "4ea1091b293b598682e2a1ce923f22be26982ac0b6a84901caaeb036d0b9a422",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux.zip"
+          "sha256": "378256a032a2e48a5fb741cbdeeebe6667cfed729ea576293cad7133688bc937",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux.zip"
         },
         {
           "name": "rom_g1-linux-arm64.zip",
@@ -410,8 +532,20 @@
           "model": "G1",
           "type": "Stock",
           "size": 1830150461,
-          "sha256": "f39a6cd676bf3d48b4289bdd611dea0b389db0e220b54862dd23df603340a93a",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux-arm64.zip"
+          "sha256": "ba4ea55572ac95026c2c8c4a29cc96d6de5cc15b49a1d7e0349f0bc3b19e29f5",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux-arm64.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux-arm64.zip"
+        },
+        {
+          "name": "rom_g1-linux-legacy.zip",
+          "source_asset": "rom_g1.zip",
+          "platform": "linux-legacy",
+          "model": "G1",
+          "type": "Stock",
+          "size": 1718637833,
+          "sha256": "b9727c15c19a5beb10b2ffdfd143196bfc68346a5ede6ad444ae1dc019e5fed2",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux-legacy.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux-legacy.zip"
         },
         {
           "name": "rom_g1-macos.zip",
@@ -420,8 +554,9 @@
           "model": "G1",
           "type": "Stock",
           "size": 1765096312,
-          "sha256": "69573ab6e67a1136b6f924ee5446f8e7e680a0901c943cee0061a25053e45f33",
-          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-macos.zip"
+          "sha256": "9f5611041fe8a8a1ccd4457450c64f15a40355c355aa77bab3b1d92fa4be1a88",
+          "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-macos.zip",
+          "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-macos.zip"
         }
       ],
       "original_assets": [
