@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T21:23:21Z",
+  "generated_at": "2026-11-20T23:45:25Z",
   "source_repo": "y1-community/g1-stock-rom",
   "source_fallback_repo": "ryan-specter/g1-stock-rom",
   "mirror_repo": "y1-community/g1-stock-rom-mirror",
@@ -105,8 +105,8 @@
           "platform": "linux",
           "model": "G1",
           "type": "Stock",
-          "size": 1947096942,
-          "sha256": "7565f5552b3bfe4841b9e270ed8b43ed458b4084e7dc6de314f56efd4de625b4",
+          "size": 1947266707,
+          "sha256": "16b17ed4160b4f363d14844723d6f9f321cc43eeb2e8c5de714611487cdcadc2",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/rom_g1-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/rom_g1-linux.zip"
         },
@@ -116,8 +116,8 @@
           "platform": "linux-arm64",
           "model": "G1",
           "type": "Stock",
-          "size": 1772001202,
-          "sha256": "62ddaab00ee0a8abb15893c0c64764dffc14e21dcd4e5573be94b621de0b403e",
+          "size": 1772172265,
+          "sha256": "9638770a9bad583048e1db48c81423304e602d2898688e97d9d1bc595e0fd847",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/rom_g1-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/rom_g1-linux-arm64.zip"
         },
@@ -138,8 +138,8 @@
           "platform": "macos",
           "model": "G1",
           "type": "Stock",
-          "size": 1754972263,
-          "sha256": "d8de7b1c05a895725965bbb2a3c334cc6885012ecda72499786aad08f463f989",
+          "size": 1755089861,
+          "sha256": "1a26657a14a427d35ac12f90e9a6279df2f2e5491658f34558d07a3bc3c76515",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/rom_g1-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.01-20260805/rom_g1-macos.zip"
         }
@@ -188,8 +188,8 @@
           "platform": "linux",
           "model": "G1",
           "type": "Stock",
-          "size": 1947055892,
-          "sha256": "5a1c8cbed11294fbb1b9088f7ffe6644606ca9b3c2f11935f290a698687dba70",
+          "size": 1947225657,
+          "sha256": "549b0d2740c675a1c84ce2f95275679bc390d028f3e24f29b44cade24358848b",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux.zip"
         },
@@ -199,8 +199,8 @@
           "platform": "linux-arm64",
           "model": "G1",
           "type": "Stock",
-          "size": 1771960152,
-          "sha256": "bad20c3f8e10a69a0c9b8df9518f33fc1c52e2b90aa99f7e7d1a29f14edbd2e4",
+          "size": 1772131215,
+          "sha256": "cdc71b728be62d35a0b75df9a4609520101d044cf91f2df9611018d6c980f93c",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-linux-arm64.zip"
         },
@@ -221,8 +221,8 @@
           "platform": "macos",
           "model": "G1",
           "type": "Stock",
-          "size": 1754931212,
-          "sha256": "ed9cd0809f6d5dda51a8cb917338f0cb8f2fb4b5af2a062b89b8410af042be22",
+          "size": 1755048810,
+          "sha256": "d1188f7edd1defb435c340e73466e1c19a52bac1026d3fbc4175fd0845ae5980",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-G1-EN-WM-V5.00-20260722/rom_g1-macos.zip"
         }
@@ -271,8 +271,8 @@
           "platform": "linux",
           "model": "G1",
           "type": "Stock",
-          "size": 1874522152,
-          "sha256": "fea7f3100b64c6a4fb07fb45b964c6640752760075c48fae59bbe83a9b9116e0",
+          "size": 1874691917,
+          "sha256": "6de5206c8c73939c5e27593ff511dc5928db3cfd2d2db263723b520a8b2aef4f",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux.zip"
         },
@@ -282,8 +282,8 @@
           "platform": "linux-arm64",
           "model": "G1",
           "type": "Stock",
-          "size": 1699426412,
-          "sha256": "82e19e4ab65c26b2f9b8c688d5c02cb96d240ad1d1156c5044747c44392e8985",
+          "size": 1699597475,
+          "sha256": "ff48880039e24d73cd363fb61703f48cd1925ac1d1bf65fdc8b84e7d488a0617",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-linux-arm64.zip"
         },
@@ -304,8 +304,8 @@
           "platform": "macos",
           "model": "G1",
           "type": "Stock",
-          "size": 1682397470,
-          "sha256": "b106f64afdc46790cb04f7f26fa04db99b07778f88e884cd391c90c440e5a925",
+          "size": 1682515068,
+          "sha256": "1ff35562f6e07f60107fc01edca0e4f988ed268e122ca85963e29878cb5ea9a4",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.03-20260826/rom_g1-macos.zip"
         }
@@ -354,8 +354,8 @@
           "platform": "linux",
           "model": "G1",
           "type": "Stock",
-          "size": 1874529083,
-          "sha256": "c4478e559583606d1e02c82994d5c06b1233f959056f7f566ed9c4a78a4ec210",
+          "size": 1874698848,
+          "sha256": "e3514f61eed9299b5646d31fc1064d609c753438aba1a537c6b9a2fa58db5f4d",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux.zip"
         },
@@ -365,8 +365,8 @@
           "platform": "linux-arm64",
           "model": "G1",
           "type": "Stock",
-          "size": 1699433343,
-          "sha256": "d895af1f747b357fd7f67e62ec26bd28a5b584f9d1e3a0232ac792937693e920",
+          "size": 1699604406,
+          "sha256": "981251f2c69bcb3aab89606a349cd1da53a3f6e9077656f0eae294557d08b382",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-linux-arm64.zip"
         },
@@ -387,8 +387,8 @@
           "platform": "macos",
           "model": "G1",
           "type": "Stock",
-          "size": 1682404402,
-          "sha256": "bb1f7fb3b9fff23bfd98e0d9c2ce74cbb0431ecafdb86d4517fa8f6b80c4b767",
+          "size": 1682522000,
+          "sha256": "80dd41867bb426f79c0ee3523c311a4c95642afc096cf5204f098291d5db1e5b",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_G1_MULTI-V3.01-20260720/rom_g1-macos.zip"
         }
@@ -437,8 +437,8 @@
           "platform": "linux",
           "model": "G1",
           "type": "Stock",
-          "size": 1946643494,
-          "sha256": "519f2c6261929885199ee9fa9d30853f47cb5a0c694c3345701a95b66b004339",
+          "size": 1946813259,
+          "sha256": "7ec21f81f5539e18cfdf804679bc51680b4f4fd95bb0a901562488efe7d78b6b",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux.zip"
         },
@@ -448,8 +448,8 @@
           "platform": "linux-arm64",
           "model": "G1",
           "type": "Stock",
-          "size": 1771547754,
-          "sha256": "ab2df9602f4e402ec32fd74d4a9061ed4af2021c5bd4980ff01cacfdeedf37cd",
+          "size": 1771718817,
+          "sha256": "ffc7d845e513ff8a0519bc4f51b24c4c2f56fc2cd4d1375062e5ae821412bbee",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-linux-arm64.zip"
         },
@@ -470,8 +470,8 @@
           "platform": "macos",
           "model": "G1",
           "type": "Stock",
-          "size": 1754518818,
-          "sha256": "adb29f42a9b49005071d6b5cec1b1835f521cc7a499860bad71bab22811cbb30",
+          "size": 1754636416,
+          "sha256": "f5c339fa2516b707b072833fbaee679a695b88ce0cbe9347d78a885afc51876d",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.04-20260805/rom_g1-macos.zip"
         }
@@ -520,8 +520,8 @@
           "platform": "linux",
           "model": "G1",
           "type": "Stock",
-          "size": 1946676682,
-          "sha256": "3590e0ccd48c92eabc4173a8fd14152032e8f8d6a444e788f782e5483e133235",
+          "size": 1946846447,
+          "sha256": "b4310dff7d033d815f0864b5d7575d091e00dbdbda5b2fa382f3e7ffa68b7b95",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux.zip"
         },
@@ -531,8 +531,8 @@
           "platform": "linux-arm64",
           "model": "G1",
           "type": "Stock",
-          "size": 1771580942,
-          "sha256": "25747015eee64db63e8a6d81b9455a190a84852fd2038c1a31a73b54e7de6312",
+          "size": 1771752005,
+          "sha256": "dcb15d96e27ed17bf9d0b56bec711b98d7f6a7f1c8e7b0b38cf8633ea7e48f42",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux-arm64.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-linux-arm64.zip"
         },
@@ -553,8 +553,8 @@
           "platform": "macos",
           "model": "G1",
           "type": "Stock",
-          "size": 1754552006,
-          "sha256": "e0d0425644120e3a917eba7cad446a7b334908a8e54516a4cc5fa49dbb5f5075",
+          "size": 1754669604,
+          "sha256": "ef5a6214d41f997ceca2b26a64472f49a03e892096b65a7920c5989cd8d4e65f",
           "url": "https://github.com/y1-community/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-macos.zip",
           "fallback_url": "https://github.com/ryan-specter/g1-stock-rom-mirror/releases/download/MX3-9_EN-V1.03-20260707/rom_g1-macos.zip"
         }
